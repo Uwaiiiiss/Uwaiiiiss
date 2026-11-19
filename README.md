@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./ascii-moon-v3.svg" alt="Large sparse monochrome ASCII crescent moon with stars and clouds" width="100%" />
+  <img src="./ascii-moon-reference.png" alt="Monochrome ASCII crescent moon with stars and clouds" width="412" />
 </p>
 
 <p align="center">
