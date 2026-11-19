@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 306" width="740" height="306" role="img" aria-labelledby="title desc">
+  <title id="title">What I make</title>
+  <desc id="desc">AI experiments, vibe-coded apps, video editing, graphic design, and game prototypes. An orbit of stars animates alongside the list.</desc>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#141523"/><stop offset="1" stop-color="#0b0c12"/></linearGradient>
+    <pattern id="grid" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.8" fill="#8d8aa4" opacity=".28"/></pattern>
+    <linearGradient id="orbit"><stop stop-color="#7569b1"/><stop offset="1" stop-color="#dfd4ff"/></linearGradient>
+    <path id="star" d="M0 -7 1.3 -1.3 7 0 1.3 1.3 0 7 -1.3 1.3 -7 0 -1.3 -1.3Z"/>
+    <clipPath id="art"><rect x="364" y="1" width="375" height="304" rx="17"/></clipPath>
+  </defs>
+  <style>
+    .pulse { animation: glow 5s ease-in-out infinite; }
+    .late { animation-delay: -2.4s; }
+    .scan { stroke-dasharray: 10 620; animation: scan 12s linear infinite; }
+    @keyframes glow { 50% { opacity: .42; } }
+    @keyframes scan { to { stroke-dashoffset: -630; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .scan { animation: none; } }
+  </style>
+  <rect x=".5" y=".5" width="739" height="305" rx="17" fill="url(#panel)" stroke="#3a384c"/>
+  <g clip-path="url(#art)">
+    <path d="M364 0H740V306H364Z" fill="url(#grid)"/>
+    <circle cx="560" cy="153" r="69" fill="#151526" stroke="#77709b" stroke-dasharray="1 5"/>
+    <circle cx="560" cy="153" r="49" fill="none" stroke="#423d5a" stroke-dasharray="1 5"/>
+    <path d="M560 48V258M444 153H675" fill="none" stroke="#4b455f" stroke-dasharray="2 6" opacity=".7"/>
+    <g transform="rotate(-28 560 153)" fill="none">
+      <ellipse cx="560" cy="153" rx="132" ry="53" stroke="#685e87"/>
+      <ellipse cx="560" cy="153" rx="113" ry="40" stroke="#4f466b" stroke-dasharray="3 5"/>
+      <ellipse class="scan" cx="560" cy="153" rx="132" ry="53" pathLength="630" stroke="url(#orbit)" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <path d="M478 132 523 92 560 153 612 175 655 114M560 153 535 211" fill="none" stroke="#b7a9e4" stroke-width="1.2"/>
+    <g fill="#e9dcff">
+      <use href="#star" x="560" y="153" class="pulse"/>
+      <use href="#star" x="655" y="114" class="pulse late"/>
+      <circle cx="478" cy="132" r="3"/><circle cx="523" cy="92" r="3"/>
+      <circle cx="612" cy="175" r="3"/><circle cx="535" cy="211" r="3"/>
+    </g>
+    <g fill="#9f95c3"><circle cx="455" cy="77" r="1.5"/><circle cx="693" cy="182" r="1.3"/><circle cx="476" cy="236" r="1.7"/><circle cx="623" cy="229" r="1.3"/><circle cx="654" cy="62" r="1.4"/><circle cx="580" cy="66" r="1"/></g>
+  </g>
+  <path d="M364 25V281" stroke="#39364c" stroke-dasharray="2 5"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="32" y="62" fill="#f7f2ff" font-size="32" font-weight="700">What I make</text>
+    <path d="M36 98V250" stroke="#6b608b"/>
+    <path d="M36 108h15m-15 34h15m-15 34h15m-15 34h15m-15 34h15" stroke="#ab98da"/>
+    <g fill="#f0eaff" font-size="19">
+      <text x="64" y="114">AI experiments</text>
+      <text x="64" y="148">Vibe-coded apps</text>
+      <text x="64" y="182">Video editing</text>
+      <text x="64" y="216">Graphic design</text>
+      <text x="64" y="250">Game prototypes</text>
+    </g>
+  </g>
+</svg>
