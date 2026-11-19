@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Uwais — ASCII crescent</title>
+  <desc id="desc">A sparse monochrome terminal-style ASCII crescent moon with stars and clouds.</desc>
+  <rect width="920" height="520" fill="#000"/>
+  <style>
+    .ascii { font-family: "Courier New", Courier, monospace; font-size: 9px; font-weight: 700; letter-spacing: 2px; fill: #f4f4f4; }
+    .moon { animation: breathe 7s ease-in-out infinite; transform-origin: 50% 50%; }
+    .soft { opacity: .7; animation: flicker 8s steps(2,end) infinite; }
+    @keyframes breathe { 0%,100% { opacity: .78; } 50% { opacity: 1; } }
+    @keyframes flicker { 0%,91%,100% { opacity: .7; } 93% { opacity: .2; } 95% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { .moon,.soft { animation: none; } }
+  </style>
+  <g class="ascii moon" xml:space="preserve" transform="translate(42 20) scale(1.42)">
+    <text x="0" y="0">                                                                      +++xxx+*;:.</text>
+    <text x="0" y="9">                                                                       @.:*x@@@</text>
+    <text x="0" y="18">                                                                       +@@;x@.:**</text>
+    <text x="0" y="27">                                                                        ;@,x@*@.;*</text>
+    <text x="0" y="36">                                                                        @+@x.#,x.; .</text>
+    <text x="0" y="45">                                                                         :@x:@x,#: ,</text>
+    <text x="0" y="54">                                                                         @@x;,@@*, :</text>
+    <text x="0" y="63">                                                                         @#x+*;:, x;.</text>
+    <text x="0" y="72">                                   .                                      +x##@@@@x*:.</text>
+    <text x="0" y="81">                                                                          *x@@.:+xx+</text>
+    <text x="0" y="90">                                                                          :x@,+@.*xx</text>
+    <text x="0" y="99">                                                                           x@*@;@,+@,:</text>
+    <text x="0" y="108">                                                                       .   x.@:@*@+ :</text>
+    <text x="0" y="117">                                                                           x:@#;@@* *.</text>
+    <text x="0" y="126">                   *                                                       x*,@@@+;.x:</text>
+    <text x="0" y="135">                                                                           x++**;::. +:</text>
+    <text x="0" y="144">                                                                           x#@@@@@.,,.</text>
+    <text x="0" y="153">                                                                           x@@,*#@@,:::.</text>
+    <text x="0" y="162">                                                                           x@:x@:x@:*+</text>
+    <text x="0" y="171">                                                                           x@++*@;@:x ,</text>
+    <text x="0" y="180">         +                                                                  ,@;@x.@;@:</text>
+    <text x="0" y="189">                                                                           x;@@+,@#;@*.</text>
+    <text x="0" y="198">                                                                           x*:.@@@x*, ;.</text>
+    <text x="0" y="207">                                                                           xxx++++**:,</text>
+    <text x="0" y="216">                            .                                              x@@@@.:;**;:.</text>
+    <text x="0" y="225">                                                                           x@@:+@@:+xx</text>
+    <text x="0" y="234">                                                                           x@;#@*@.+# ,.</text>
+    <text x="0" y="243">                                                                           x@x@x@x@+@:;</text>
+    <text x="0" y="252">                                                                           x,@*@@;@+.* .</text>
+    <text x="0" y="261">                                                                           x;@@x;.@x, :</text>
+    <text x="0" y="270">                                                                          @x+;,.@@@x;.</text>
+    <text x="0" y="279">             ..:;**;:..                                                   xxxx#####x*:.</text>
+    <text x="0" y="288">                                                                          *x@@@.:*xx+;</text>
+    <text x="0" y="297">     ..::---..                                                           @;x@.*#@,*+x</text>
+    <text x="0" y="306">                                                                         @,x@;@,x@:+ ..</text>
+    <text x="0" y="315">                      ...--==--...                    ..:;*;:..          +@x.#,#,@,+ ,</text>
+    <text x="0" y="324">                                                                        #:@x:@x,@+.*.</text>
+    <text x="0" y="333">                                                                        :@@x;.@@+:@*,</text>
+    <text x="0" y="342">                                   ..::---::..                         @@@#x+*;,.@x;,</text>
+    <text x="0" y="351">                                                                  ..--==--..##@@@x+;,</text>
+    <text x="0" y="360">                                                                      @@@:*x@@@:;;;:</text>
+    <text x="0" y="369">                                                                      .*@@:x@,+@@,,,</text>
+    <text x="0" y="378">                                                                     @*@;@,x@*@,* ..</text>
+    <text x="0" y="387">                                                                    @:@;@+@x.@,x.;</text>
+    <text x="0" y="396">                                                                    @+,@+,@x:@+.+,</text>
+    <text x="0" y="405">                                                                   @@@+;.@@x;.#*,</text>
+    <text x="0" y="414">                                                                  .@@@@@@@#x*:,</text>
+    <text x="0" y="423">                                                                 @@@.,:;;*++**;:.</text>
+  </g>
+  <text class="ascii soft" x="80" y="492" font-size="8" letter-spacing="5">UWAIS / MAKING THINGS IN THE DARK</text>
+</svg>
