@@ -1,4 +1,4 @@
-<img src="./profile-moon.gif" width="100%" alt="Mohammad Uwais, game prototypes and creative code. A white crescent moon and twinkling stars on black.">
+<img src="./profile-moon.gif?v=2" width="100%" alt="Mohammad Uwais. Little games and pixel art. A white crescent moon and twinkling stars on black.">
 
 <p align="center">
   <a href="https://github.com/Uwaiiiiss?tab=repositories"><strong>Projects ↗</strong></a> &nbsp; / &nbsp;
