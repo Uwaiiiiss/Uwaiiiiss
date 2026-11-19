@@ -3,8 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Uwaiiiiss/LastNote">LastNote</a>
-  &nbsp;·&nbsp;
   <a href="https://github.com/Uwaiiiiss?tab=repositories">projects</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/mohammad-uwais-a1b46a3b6/">linkedin</a>
@@ -12,4 +10,4 @@
   <a href="https://www.instagram.com/uwaiiiiss_/">instagram</a>
 </p>
 
-<p align="center"><sub>making things in the dark.</sub></p>
+<p align="center"><sub>· · ─────── · ✧ · ─────── · ·<br><i>"Look up at the stars and not down at your feet."</i><br>— ꜱᴛᴇᴘʜᴇɴ ʜᴀᴡᴋɪɴɢ<br>· · ─────── · ✧ · ─────── · ·</sub></p>
