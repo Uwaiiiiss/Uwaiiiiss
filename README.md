@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile-hero.svg" alt="Uwais personal system: ideas in orbit" width="100%" />
+  <img src="./ascii-moon.svg" alt="Monochrome ASCII crescent moon with stars and clouds" width="100%" />
 </p>
 
 <p align="center">
@@ -12,6 +12,4 @@
   <a href="https://www.instagram.com/uwaiiiiss_/">instagram</a>
 </p>
 
-<p align="center">
-  <sub>small experiments across code, motion, design, and play.</sub>
-</p>
+<p align="center"><sub>making things in the dark.</sub></p>
