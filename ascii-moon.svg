@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Uwais — ASCII crescent</title>
+  <desc id="desc">A monochrome terminal-style ASCII crescent moon with stars and clouds.</desc>
+  <rect width="960" height="520" fill="#000"/>
+  <style>
+    .ascii { font-family: "Courier New", Courier, monospace; font-size: 10px; font-weight: 700; letter-spacing: 1px; fill: #f4f4f4; }
+    .soft { opacity: .78; animation: flicker 7s steps(2,end) infinite; }
+    .moon { animation: breathe 6s ease-in-out infinite; transform-origin: 69% 50%; }
+    @keyframes breathe { 0%,100% { opacity: .82; } 50% { opacity: 1; } }
+    @keyframes flicker { 0%,91%,100% { opacity: .72; } 93% { opacity: .28; } 95% { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) { .soft,.moon { animation: none; } }
+  </style>
+  <g class="ascii moon" xml:space="preserve" transform="translate(0 12)">
+    <text x="24" y="0">                                                                              @@@@@@@@&amp;#H3Ar:</text>
+    <text x="24" y="10">                                                                              @#&amp;@@@@@MMh32X,</text>
+    <text x="24" y="20">                                                                               @@B@@@9&amp;@555A:</text>
+    <text x="24" y="30">                                                                               9@@@@B@@S9555i:</text>
+    <text x="24" y="40">                                                                               @B@&amp;@@@&amp;@SB3rr,</text>
+    <text x="24" y="50">                                                                                @@9@@9@&amp;M93sX;</text>
+    <text x="24" y="60">                                                                                @&amp;#@@@B@@#hX2r,</text>
+    <text x="24" y="70">                                                                                9S@@@@@@BGhAr;;</text>
+    <text x="24" y="80">                                                                                @@@@@@#SGMh5Xr:</text>
+    <text x="24" y="90">                                        .                                       @@@@9@@@@@h32Xi</text>
+    <text x="24" y="100">                                                                                 @@@&amp;@@B@@3hhi;,</text>
+    <text x="24" y="110">                                                                                 9@@@@@@#@3MHsr</text>
+    <text x="24" y="120">                                                                                 @@S@9@@@B@GA2i:</text>
+    <text x="24" y="130">                                                                                .@@#@@9@@#@S5hs:</text>
+    <text x="24" y="140">                                                                                 @&amp;#@@@@B@@#hAii</text>
+    <text x="24" y="150">                      *                                                          BB9#@@@@@@9H5X;</text>
+    <text x="24" y="160">                                                                                 @#9&amp;@@@@@@&amp;#M5:</text>
+    <text x="24" y="170">                                                                                 @@B@@@@B@@@2AXi</text>
+    <text x="24" y="180">                                                                                 @@B@@B@@B@@335;</text>
+    <text x="24" y="190">                                                                                 @@&amp;@B@#@S&amp;@MHXs</text>
+    <text x="24" y="200">                                                                                  @&amp;@@+@&amp;@&amp;@G25i</text>
+    <text x="24" y="210">          +                                                                      @@@@@@B@@Bh93sX</text>
+    <text x="24" y="220">                                                                                 @@@BS@@@@9M&amp;H2r</text>
+    <text x="24" y="230">                                                                                 @@@@@@&amp;&amp;&amp;#H3As;</text>
+    <text x="24" y="240">                             .                                                   B&amp;@@@@@@SSGM32s</text>
+    <text x="24" y="250">                                                                                 @B@@@9@@@GGGHri</text>
+    <text x="24" y="260">                                                                                 @#@@B@@&amp;@@S#AAs</text>
+    <text x="24" y="270">                                                                                 @@@@@@@@@@#B33i</text>
+    <text x="24" y="280">                                                                                 &amp;@@9@@@@&amp;@#5MXX</text>
+    <text x="24" y="290">                                                                                 S@@@S@@@S@9hX5r</text>
+    <text x="24" y="300">                                                                                 @@@@@B#@@@9H5s;</text>
+    <text x="24" y="310">                                                                                @@@@@@@@@@@BGhAr</text>
+    <text x="24" y="320">                                                                                B@@@@@SB@@@B#Hr;</text>
+    <text x="24" y="330">                    ..:;irsXAA;:.                                               @9@@@B@@@9BBAAXi</text>
+    <text x="24" y="340">                                                                                @@@@#@@&amp;@G9B55i;</text>
+    <text x="24" y="350">        ..::--==---..                                                           9@B@&amp;@@@@@SB3hri</text>
+    <text x="24" y="360">                                                               ..:;ir;:..      9@@#@@S@@@@GBhXX:</text>
+    <text x="24" y="370">                               ...--==--...                                    @@B@@@@9@@BM2MAi</text>
+    <text x="24" y="380">                                                                               9#@@@@@@@BSh2H2r,</text>
+    <text x="24" y="390">                                                ..::---:::..             ..--==--..@@@@@Hh32Xr:</text>
+    <text x="24" y="400">                                                                              @B@@@@SB@@@@22Xs;</text>
+    <text x="24" y="410">                                                                             #@@@@@@B@@G#992As,</text>
+    <text x="24" y="420">                                                                             @@B@#@@@@B@hGSAA;,</text>
+    <text x="24" y="430">                                                                             @B@@@@@@#@G&amp;hGAA;</text>
+    <text x="24" y="440">                                                                            B@@&amp;@@@@@@H@G2MX;;</text>
+    <text x="24" y="450">                                                                           @@9@@@@B@@@&amp;G5S3X;</text>
+    <text x="24" y="460">                                                                           @@@@&amp;B9#S@@@&amp;#M2s;</text>
+    <text x="24" y="470">                                                                          @@@@@@@@@##SGHh5Ar;</text>
+  </g>
+  <text class="ascii soft" x="28" y="492" font-size="9" letter-spacing="4">UWAIS / MAKING THINGS IN THE DARK</text>
+</svg>
